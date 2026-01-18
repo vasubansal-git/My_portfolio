@@ -14,15 +14,40 @@
             <div class="left">Vasu's portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
+    <main>
+        <section class = "firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Vasu</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="https://www.pngall.com/wp-content/uploads/5/Python-PNG-File.png" alt="">
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <h1>Past Experience</h1>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Python developer.', 'Web developer.', 'Data structures and algorithms.', 'video editor.'],
+      typeSpeed: 50,
+    });
+  </script>
 
 </body>
 
